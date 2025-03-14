@@ -8,7 +8,9 @@ export default {
     extend: {
       fontFamily: {
         'primary': ["Poppins", "sans-serif"],
-        'secondary': ["Syne", "sans-serif"]
+        'secondary': ["Syne", "sans-serif"],
+        'tertiary': ["Great Vibes", "cursive"],
+        'tertiarySecond': ["Sofia", "cursive"]
 
       },
       colors: {
