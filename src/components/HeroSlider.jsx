@@ -6,8 +6,6 @@ import { PiClover } from "react-icons/pi";
 import { GiLovers } from "react-icons/gi";
 
 
-
-
 const testimonials = [
   {
     text: "Capture every moment.",
@@ -39,10 +37,10 @@ export default function TestimonialSlider() {
   return (
     <div className="mx-auto p-6 bg-transparent">
       <div className="flex flex-col items-center">
-        <p className="text-sm italic text-teal-100 mb-4">
+        <p className="text-md italic text-teal-100 mb-4">
           {testimonials[currentIndex].text}
         </p>
-        <p className="text-teal-100 text-3xl">
+        <p className="text-teal-100 text-5xl">
           {testimonials[currentIndex].icon}
         </p>
       </div>

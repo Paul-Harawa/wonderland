@@ -2,7 +2,9 @@ import React from 'react'
 
 function Gallery() {
   return (
-    <div className='h-screen bg-red-600'></div>
+    <div className='h-screen bg-red-600'>
+        
+    </div>
   )
 }
 

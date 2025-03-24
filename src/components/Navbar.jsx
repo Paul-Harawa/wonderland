@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect  } from "react";
 import { RiCloseFill, RiMenu2Fill } from "react-icons/ri";
 import logoImage from "../assets/logo.png";
 import {
@@ -16,6 +16,9 @@ const Sidebar = () => {
     setIsOpen(!isOpen);
   };
 
+
+
+  
   return (
     <div className="flex flex-row fixed w-full">
       {/* Sidebar */}
@@ -72,7 +75,7 @@ const Sidebar = () => {
       </div>
 
       {isOpen ? ""  : <div className="p-3 m-3">
-      <h2 className="text-lg font-tertiarySecond text-teal-300">Wonderland</h2>
+      <h2 className= "text-lg font-tertiarySecond text-teal-300" >Wonderland</h2>
       </div> }
       
 
