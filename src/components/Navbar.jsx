@@ -4,8 +4,6 @@ import logoImage from "../assets/logo.png";
 import {
   FaCamera,
   FaFacebook,
-  FaFacebookF,
-  FaGlobe,
   FaInstagram,
   FaTwitter,
   FaYoutube,
@@ -19,16 +17,16 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="flex">
+    <div className="flex flex-row fixed w-full">
       {/* Sidebar */}
       <div
         className={`${
-          isOpen ? "w-64" : "w-0"
+          isOpen ? "w-64 " : "w-0"
         } transition-width duration-300 bg-teal-800 text-white h-screen overflow-hidden`}
       >
         <div className="p-4 flex flex-col h-screen">
           <div className="flex flex-row space-x-2  pb-8">
-            <FaCamera className="size-8 text-teal-300" />
+            <FaCamera className="size-7 text-teal-300" />
             <h2 className="text-lg font-tertiarySecond pt-1">Wonderland</h2>
           </div>
 
@@ -61,15 +59,26 @@ const Sidebar = () => {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 bg-gray-100 h-screen">
+      <div className="flex-1 bg-transparent h-screen">
         <button
           onClick={toggleSidebar}
           className="m-4 p-3 bg-teal-600 text-white rounded"
         >
-          {isOpen ? <RiCloseFill /> : <RiMenu2Fill />}
+          {isOpen ? <RiCloseFill />  : <RiMenu2Fill />}
         </button>
-        <div className="p-4">Main content goes here</div>
+        <div className="p-4">
+          
+        </div>
       </div>
+
+
+      <div className="p-3 m-3">
+      <h2 className="text-lg font-tertiarySecond text-teal-300">Wonderland</h2>
+      </div>
+
+
+
+
     </div>
   );
 };
