@@ -24,7 +24,7 @@ const Sidebar = () => {
           isOpen ? "w-64 " : "w-0"
         } transition-width duration-300 bg-teal-800 text-white overflow-hidden`}
       >
-        <div className="p-4 flex flex-col h-full">
+        <div className="p-4 flex flex-col h-screen">
           <div className="flex flex-row space-x-2  pb-8">
             <FaCamera className="size-7 text-teal-300" />
             <h2 className="text-lg font-tertiarySecond pt-1">Wonderland</h2>
@@ -45,7 +45,7 @@ const Sidebar = () => {
             </li>
           </ul>
 
-          <div className="flex flex-row flex-grow ">
+          <div className="flex flex-row flex-grow">
             <div className=" self-end w-full">
               <div className="flex flex-row space-x-2 p-2 justify-evenly  ">
                 <FaFacebook className="size-7 text-teal-300 hover:text-teal-200 cursor-pointer" />
