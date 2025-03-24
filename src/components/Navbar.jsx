@@ -45,7 +45,7 @@ const Sidebar = () => {
             </li>
           </ul>
 
-          <div className="flex flex-row mt-40">
+          <div className="flex flex-row flex-grow">
             <div className="pb-16 self-end w-full">
               <div className="flex flex-row space-x-2 p-2 justify-evenly  ">
                 <FaFacebook className="size-7 text-teal-300 hover:text-teal-200 cursor-pointer" />
