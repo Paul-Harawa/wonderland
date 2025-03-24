@@ -22,9 +22,9 @@ const Sidebar = () => {
       <div
         className={`${
           isOpen ? "w-64 " : "w-0"
-        } transition-width duration-300 bg-teal-800 text-white h-screen overflow-hidden`}
+        } transition-width duration-300 bg-teal-800 text-white overflow-hidden`}
       >
-        <div className="p-4 flex flex-col h-screen">
+        <div className="p-4 flex flex-col h-full">
           <div className="flex flex-row space-x-2  pb-8">
             <FaCamera className="size-7 text-teal-300" />
             <h2 className="text-lg font-tertiarySecond pt-1">Wonderland</h2>
