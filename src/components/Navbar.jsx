@@ -71,10 +71,10 @@ const Sidebar = () => {
         </div>
       </div>
 
-
-      <div className="p-3 m-3">
+      {isOpen ? ""  : <div className="p-3 m-3">
       <h2 className="text-lg font-tertiarySecond text-teal-300">Wonderland</h2>
-      </div>
+      </div> }
+      
 
 
 
