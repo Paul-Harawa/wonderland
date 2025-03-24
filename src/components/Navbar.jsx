@@ -46,7 +46,7 @@ const Sidebar = () => {
           </ul>
 
           <div className="flex flex-row flex-grow">
-            <div className=" self-end w-full">
+            <div className="pb-16 self-end w-full">
               <div className="flex flex-row space-x-2 p-2 justify-evenly  ">
                 <FaFacebook className="size-7 text-teal-300 hover:text-teal-200 cursor-pointer" />
                 <FaInstagram className="size-7 text-teal-300 hover:text-teal-200 cursor-pointer" />
